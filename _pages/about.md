@@ -6,7 +6,7 @@ subtitle: <a href='https://profiles.auckland.ac.nz/yun-suen-pai/about'>Lecturer<
 
 profile:
   align: right
-  image: pai_kmd.png
+  image: pai_uoa.jpg
   image_cicular: true # crops the image to make it circular
   address: >
     <p><a href='mailto:yun.suen.pai@auckland.ac.nz'>yun.suen.pai@auckland.ac.nz</a></p>
