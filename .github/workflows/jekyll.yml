@@ -2,7 +2,7 @@ name: Custom Jekyll Build and Deploy
 
 on:
   push:
-    branches: ["main"] # <--- Verify your primary branch name here (main or master)
+    branches: ["master"] # <--- Verify your primary branch name here (main or master)
   workflow_dispatch:
 
 permissions:
