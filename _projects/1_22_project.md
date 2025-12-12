@@ -3,7 +3,7 @@ layout: page
 title: Blooming Resonant Tea
 description: A Multisensory Dining Experience with Dynamic Visuals and Music
 img: assets/img/resonanttea_main.png
-importance: 0.08
+importance: 0.007
 category: work
 youtubeId: MalKBuenRkw
 ---

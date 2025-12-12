@@ -3,7 +3,7 @@ layout: page
 title: NatureBlendVR
 description: Hybrid Space Interactive Experience For Emotional Regulation And Cognition Improvement
 img: assets/img/natureblendvr_xr_main.png
-importance: 0.08
+importance: 0.05
 category: work
 youtubeId: dEmLzsG1GA8
 ---

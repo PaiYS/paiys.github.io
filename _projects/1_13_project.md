@@ -3,7 +3,7 @@ layout: page
 title: SealMates
 description: Improving Communication in Video Conferencing using a Collective Behavior-Driven Avatar
 img: assets/img/sealmates_main.png
-importance: 0.08
+importance: 0.07
 category: work
 youtubeId: 8pVFFyB3AT4
 ---

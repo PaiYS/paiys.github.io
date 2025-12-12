@@ -3,7 +3,7 @@ layout: page
 title: TIEboard
 description: A Digital Educational Tool for Kids Geometric Learning
 img: assets/img/tieboard_main.png
-importance: 0.08
+importance: 0.009
 category: work
 youtubeId: owGx8jgOjjw
 ---

@@ -3,7 +3,7 @@ layout: page
 title: Transcendental Chakra
 description: A Multi-Sensory Meditation Spiritual Journey to Enhance Self-Awareness Based on VR
 img: assets/img/chakra_main.png
-importance: 0.08
+importance: 0.03
 category: work
 youtubeId: cifFYhNMEHY
 ---

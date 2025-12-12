@@ -3,7 +3,7 @@ layout: page
 title: Living Bento
 description: Heartbeat-Driven Noodles for Enriched Dining Dynamics
 img: assets/img/bento_main.png
-importance: 0.08
+importance: 0.01
 category: work
 youtubeId: XQlDVOgl388
 ---

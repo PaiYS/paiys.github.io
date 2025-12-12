@@ -3,7 +3,7 @@ layout: page
 title: Re-Touch
 description: A VR Experience for Enhancing Autobiographical MemoryRecall Through Haptic and Affective Feedback
 img: assets/img/re-touch_main.png
-importance: 0.08
+importance: 0.04
 category: work
 youtubeId: Lo9QVUMyk3w
 ---

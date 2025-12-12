@@ -3,7 +3,7 @@ layout: page
 title: Cuddle-Fish
 description: Exploring a Soft Floating Robot with Flapping Wings for Physical Interactions
 img: assets/img/cuddlefish_main.png
-importance: 0.08
+importance: 0.008
 category: work
 youtubeId: LZMCCSNKPBk
 ---

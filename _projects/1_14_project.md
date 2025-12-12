@@ -3,7 +3,7 @@ layout: page
 title: Cymatics Cup
 description: Shape-Changing Drinks by Leveraging Cymatics
 img: assets/img/cymatics_main.png
-importance: 0.08
+importance: 0.06
 category: work
 youtubeId: mDCEyEv5hdM
 ---

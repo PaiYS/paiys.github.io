@@ -3,7 +3,7 @@ layout: page
 title: Portable Silent Room
 description: VR for Anxiety and Emotion Regulation for Neurodivergent Women and Non-Binary
 img: assets/img/silentroom_main.png
-importance: 0.08
+importance: 0.02
 category: work
 youtubeId: vvYrI9SOxIc
 ---
