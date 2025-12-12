@@ -4,11 +4,11 @@
     - name: Full Name
       value: Yun Suen Pai
     - name: Current Position
-      value: <a href='https://profiles.auckland.ac.nz/yun-suen-pai/about'>Lecturer</a>
+      value: <a href='https://profiles.auckland.ac.nz/yun-suen-pai/about'>Senior Lecturer</a>
     - name: Affiliation
       value: School of Computer Science, University of Auckland, New Zealand
     - name: Research Interests
-      value: AR/VR/MR, assistive/inclusive technology, physiological sensing, human factors (behavior, perception, learning)
+      value: AR/VR/MR, assistive interactions, physiological sensing, human factors (behavior, perception, learning), human augmentation
 
 - title: Education
   type: time_table
@@ -32,34 +32,41 @@
 - title: Work Experience
   type: time_table
   contents:
-    - title: Lecturer (tenured)
+    - title: Senior Lecturer
       institution: School of Computer Science, University of Auckland, New Zealand
-      year: 2023 - current
+      year: 2026 - current
       description:
-        - Co-direct the Empathic Computing Laboratory
-        - Currently recruiting masters/PhD students
+        - Director, Inclusive Reality Lab
+        - Associate Director, Empathic Computing Lab
 
-    - title: Project Senior Assistant Professor (non-tenured)
+    - title: Lecturer
+      institution: School of Computer Science, University of Auckland, New Zealand
+      year: 2023 - 2026
+      description:
+        - Director, Inclusive Reality Lab
+        - Associate Director, Empathic Computing Lab
+
+    - title: Project Senior Assistant Professor
       institution: Graduate School of Media Design, Keio University, Japan
       year: 2022 - 2023
       description:
         - Conduct Research under the Cybernetic Being Moonshot Project.
         - Led the Physionetic Interactions (research on physiology and cybernetic avatars, 17 members) research group within the Embodied Media Laboratory
     
-    - title: Project Assistant Professor (non-tenured)
+    - title: Project Assistant Professor
       institution: Graduate School of Media Design, Keio University, Japan
       year: 2021 - 2022
       description:
         - Conduct Research under the Cybernetic Being Moonshot Project.
         - Led the Empathic Interactions (research on emotions, 10 members) and Transcending Bodies (research on robotics, 6 members) research group within the Embodied Media Laboratory
 
-    - title: Postdoctoral Research Fellow
+    - title: Research Fellow
       institution: Auckland Bioengineering Institute, University of Auckland, New Zealand
       year: 2019 - 2021
       description:
         - Conduct Research in the Empathic Computing Laboratory.
 
-    - title: Researcher
+    - title: Postdoc Researcher
       institution: Graduate School of Media Design, Keio University, Japan
       year: 2018 - 2019
       description:
@@ -83,14 +90,28 @@
       description:
         - Internship under the Global Product Design Centre (GPDC) Department.
 
+- title: Supervision Experience
+  type: time_table
+  contents:
+    - title: Completed Supervision
+      description:
+        - Honours - 2 students
+        - Masters - 25 students
+        - PhD - 2 students
+    - title: In Progress Supervision
+      description:
+        - Honours - 9 students
+        - Masters - 2 students
+        - PhD - 8 students
+
 - title: Teaching
   type: time_table
   contents:
     - title: University of Auckland
       year: 2024 - present
       description:
-        - Human-Computer Interaction (2024, 2025)
-        - Advanced Human-Computer Interaction (2024, 2025)
+        - Human-Computer Interaction (2024 - present)
+        - Advanced Human-Computer Interaction (2024 - present)
         - Research Methods in Computer Science (2024)
         - Introduction to Software Fundamentals (2025)
     - title: Keio University
@@ -121,6 +142,18 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - title: ISMAR 2025
+      year: 2025
+      items: 
+        - Honourable Mention Award (Top 3%) for Portable Silent Room paper
+    - title: CHI 2025
+      year: 2025
+      items: 
+        - Honourable Mention Award (Top 5%) for Living Bento paper
+    - title: AHs 2025
+      year: 2025
+      items: 
+        - Honourable Mention Award for Cuddle-Fish paper
     - title: IMWUT 2023
       year: 2023
       items: 
@@ -161,18 +194,26 @@
 - title: Grants and Fundings
   type: time_table
   contents:
+    - title: UoA Trandisciplinary Ideation Fund
+      year: 2026 - 2027
+      items:
+        - NZ$19,921 for proposal entitled Feasibility of Bioresponsive Assistive Frameworks for Neurodivergent Wellbeing in Aotearoa
+    - title: Future Food Research Centre Seed Fund
+      year: 2025 - 2026
+      items:
+        - NZ$3,500 for proposal entitled Living Plate - Enhancing Dining Experiences through Heartbeat Synchronized Tableware
     - title: UoA FoS New Staff Grant
       year: 2025 - 2026
       items:
-        - $20,000 for proposal entitled Development of a Bioresponsive MR Toolkit for Neurodivergent Individuals to Overcome Social Anxiety
+        - NZ$20,000 for proposal entitled Development of a Bioresponsive MR Toolkit for Neurodivergent Individuals to Overcome Social Anxiety
     - title: JST Cybernetic Being Moonshot Project
       year: 2020 - 2025
       items: 
-        - $5,000,000 / 5 years, managed by PI Minamizawa. I manage a portion dedicated to the proposal entitled the Empathic Metaverse Platform
+        - NZ$7,000,000 / 5 years, managed by PI Minamizawa. I manage a portion (NZ$1,750,000) dedicated to the proposal entitled the Empathic Metaverse Platform
     - title: Google ATAP Collaboration Project
       year: 2021
       items: 
-        - $100,000 for proposal entitled Multi-Scale, Multi-Radar Interactive System
+        - NZ$157,000 for proposal entitled Multi-Scale, Multi-Radar Interactive System
     - title: Ignition Point Collaboration Project
       year: 2019
       items:
