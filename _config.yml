@@ -2,6 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
+author: Yun Suen Pai # The name of the Person entity
 title: Dr. Yun Suen Pai | HCI Researcher # the website title (if blank, full name will be used instead)
 first_name: Yun Suen
 middle_name: 

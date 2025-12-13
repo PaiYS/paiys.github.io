@@ -8,6 +8,28 @@
   {%- endif -%}
   {% include head.html %}
   {% seo %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Yun Suen Pai",
+    "url": "https://www.yunsuenpai.com/",
+    "sameAs": [
+      "https://github.com/PaiYS",
+      "https://twitter.com/yun_suen_pai",
+      "https://www.linkedin.com/in/yun-suen-pai-96506a213",
+      "https://scholar.google.com/citations?user=yzVKxRUAAAAJ",
+      "https://orcid.org/0000-0002-6090-2837",
+      "https://dblp.org/pid/182/7081.html",
+      "https://www.researchgate.net/profile/Yun-Suen-Pai-2"
+    ],
+    "jobTitle": "Senior Lecturer",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "University of Auckland"
+    }
+  }
+  </script>
   {% if site.google_analytics and jekyll.environment == 'production' %}
 {% include analytics.html %}
 {% endif %}
