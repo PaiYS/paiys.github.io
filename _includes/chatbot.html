@@ -2,3 +2,64 @@
     <script src="https://cdn.botpress.cloud/webchat/v3.6/inject.js"></script>
 <script src="https://files.bpcontent.cloud/2026/06/21/09/20260621093143-43JKUOWM.js" defer></script>
     
+<!-- Custom attention nudge (free alternative to Botpress proactive messages) -->
+<div id="bp-nudge" class="bp-nudge" role="button" tabindex="0" aria-label="Open the AI chatbot">
+  <button class="bp-nudge-close" aria-label="Dismiss">&times;</button>
+  <span>👋 Hi! I'm an AI version of Yun Suen Pai — ask me about my research.</span>
+</div>
+
+<style>
+  .bp-nudge {
+    position: fixed; bottom: 96px; right: 24px;   /* sits just above the launcher */
+    max-width: 240px;
+    background: var(--global-card-bg-color, #fff);
+    color: var(--global-text-color, #1c1c1c);
+    border: 1px solid rgba(0,0,0,.08); border-radius: 14px;
+    padding: 12px 30px 12px 14px;
+    box-shadow: 0 6px 24px rgba(0,0,0,.18);
+    font-size: .9rem; line-height: 1.35; cursor: pointer;
+    z-index: 2147483000;
+    opacity: 0; transform: translateY(8px); pointer-events: none;
+    transition: opacity .35s ease, transform .35s ease;
+  }
+  .bp-nudge.show { opacity: 1; transform: translateY(0); pointer-events: auto; }
+  .bp-nudge::after {   /* arrow pointing down toward the launcher */
+    content: ""; position: absolute; bottom: -8px; right: 26px;
+    border: 8px solid transparent; border-bottom: 0;
+    border-top-color: var(--global-card-bg-color, #fff);
+  }
+  .bp-nudge-close {
+    position: absolute; top: 4px; right: 8px;
+    background: none; border: none; color: inherit;
+    font-size: 1.1rem; line-height: 1; cursor: pointer; opacity: .5;
+  }
+  .bp-nudge-close:hover { opacity: 1; }
+  @media (max-width: 576px) { .bp-nudge { max-width: 200px; bottom: 88px; right: 16px; } }
+</style>
+
+<script>
+  (function () {
+    var KEY = 'bpNudgeDismissed';
+    var nudge = document.getElementById('bp-nudge');
+    if (!nudge) return;
+    if (localStorage.getItem(KEY)) { nudge.remove(); return; }
+
+    setTimeout(function () { nudge.classList.add('show'); }, 4000); // appears after 4s
+
+    function dismiss() {
+      nudge.classList.remove('show');
+      localStorage.setItem(KEY, '1');
+      setTimeout(function () { nudge.remove(); }, 350);
+    }
+    function openChat() {
+      try {
+        if (window.botpress && typeof window.botpress.open === 'function') window.botpress.open();
+        else if (window.botpressWebChat && window.botpressWebChat.sendEvent) window.botpressWebChat.sendEvent({ type: 'show' });
+      } catch (e) {}
+      dismiss();
+    }
+    nudge.addEventListener('click', openChat);
+    nudge.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') openChat(); });
+    nudge.querySelector('.bp-nudge-close').addEventListener('click', function (e) { e.stopPropagation(); dismiss(); });
+  })();
+</script>
