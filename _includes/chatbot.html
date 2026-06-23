@@ -40,15 +40,17 @@
 <script>
   (function () {
     var KEY = 'bpNudgeDismissed';
+    var SUPPRESS_MS = 7 * 24 * 60 * 60 * 1000; // re-show 7 days after dismissal
     var nudge = document.getElementById('bp-nudge');
     if (!nudge) return;
-    if (localStorage.getItem(KEY)) { nudge.remove(); return; }
+    var dismissedAt = parseInt(localStorage.getItem(KEY), 10);
+    if (dismissedAt && (Date.now() - dismissedAt) < SUPPRESS_MS) { nudge.remove(); return; }
 
-    setTimeout(function () { nudge.classList.add('show'); }, 4000); // appears after 4s
+    setTimeout(function () { nudge.classList.add('show'); }, 2000); // appears after 4s
 
     function dismiss() {
       nudge.classList.remove('show');
-      localStorage.setItem(KEY, '1');
+      localStorage.setItem(KEY, Date.now());
       setTimeout(function () { nudge.remove(); }, 350);
     }
     function openChat() {
